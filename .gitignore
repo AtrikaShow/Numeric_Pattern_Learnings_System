@@ -1,0 +1,22 @@
+# --- Dependencies (Like node_modules) ---
+# We ignore the virtual environment because it's huge 
+# and specific to your machine's OS.
+.venv/
+venv/
+env/
+
+# --- Compiled Files (Like dist/ or build/ artifacts) ---
+# Python compiles .py files into .pyc files for speed. 
+# We don't want these in git.
+__pycache__/
+*.pyc
+
+# --- Environment Variables (Security) ---
+.env
+
+# --- IDE Settings ---
+.vscode/
+.idea/
+
+# --- Jupyter Notebooks (If you use them later) ---
+.ipynb_checkpoints
