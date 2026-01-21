@@ -5,7 +5,7 @@ def generate_data(limit):
     output_data = []
     for i in range(limit):
         input_value = i
-        output_value = 5 * input_value - 1 
+        output_value = 3* input_value + 2 
 
         input_data.append(input_value)
         output_data.append(output_value)

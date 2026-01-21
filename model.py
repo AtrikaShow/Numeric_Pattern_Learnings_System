@@ -2,7 +2,7 @@ import torch  # core tensor library
 import torch.nn as nn  # neural network module 
 
 # define the model class
-class SimpleRegressionmodel(nn.Module):
+class SimpleRegressionModel(nn.Module):
        def __init__(self):
         super().__init__()
 
@@ -18,11 +18,11 @@ class SimpleRegressionmodel(nn.Module):
 
 
 # instantiate the model
-model = SimpleRegressionmodel()
+model = SimpleRegressionModel()
 # print the model architecture
 print(model)
 
 # test with dummy input
-test_input = torch.tensor([[5.0]])
+test_input = torch.tensor([[1.0]])
 test_output = model(test_input)
 print("Test output for input 5.0:", test_output)

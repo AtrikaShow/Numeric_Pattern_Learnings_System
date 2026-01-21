@@ -4,3 +4,5 @@ from data_generator import generate_data
 input_data, output_data = generate_data(50)
 
 
+print("Input Data:", input_data[:40])
+print("Output Data:", output_data[:40])
