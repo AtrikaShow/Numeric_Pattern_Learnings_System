@@ -62,7 +62,6 @@ Now that the model is trained/saved, we can use it like a real app.
 ```bash
 python3 predict.py
 ```
-*Output:* The model will take inputs (like `5.0`) and predict the output (approx `17.0`).
 
 ---
 
