@@ -16,13 +16,14 @@ class SimpleRegressionModel(nn.Module):
         return x
        
 
+# this will only run if this file is executed directly not imported
+if __name__ == "__main__":
+        # instantiate the model
+        model = SimpleRegressionModel()
+        # print the model architecture
+        print(model)
 
-# instantiate the model
-model = SimpleRegressionModel()
-# print the model architecture
-print(model)
-
-# test with dummy input
-test_input = torch.tensor([[1.0]])
-test_output = model(test_input)
-print("Test output for input 5.0:", test_output)
+        # test with dummy input
+        test_input = torch.tensor([[1.0]])
+        test_output = model(test_input)
+        print("Test output for input 5.0:", test_output)
